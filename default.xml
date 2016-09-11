@@ -535,50 +535,5 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
-<!-- BEGIN TOOLCHAINS -->
-  <!-- SABERMOD ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="xanaxdroid/arm-linux-androideabi-4.8" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-sm" name="xanaxdroid/arm-linux-androideabi-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0-sm" name="xanaxdroid/arm-linux-androideabi-6.0" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1-sm" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bitbucket" revision="sabermod" />
-
-  <!-- SABERMOD ROM TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-sm" name="xanaxdroid/aarch64-linux-android-6.1" remote="bitbucket" revision="sabermod" />
-
-  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="xanaxdroid/arm-eabi-4.8" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-sm" name="xanaxdroid/arm-eabi-7.0" remote="bitbucket" revision="sabermod" />
-
-  <!--SABERMOD KERNEL TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-5.3-sm" name="xanaxdroid/aarch64-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1-sm" name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0-sm" name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
-
-  <!-- HYPER KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-HYPER-linaro" name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="LxSM" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-HYPER-uber" name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="UxSM" />
-
-  <!-- HYPER ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-HYPER-linaro" name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="LxSM" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-HYPER-uber" name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="UxSM" />
-
-  <!-- LINARO ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-linaro" name="UBERTC/arm-linux-androideabi-5.3" remote="bitbucket" revision="master" />
-
-  <!-- LINARO ROM TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-linaro" name="xanaxdroid/aarch64-linux-android-5.3" remote="bitbucket" revision="linaro" />
-  
-  <!-- LINARO KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-linaro" name="UBERTC/arm-eabi-5.3" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" />
-<!-- END TOOLCHAINS -->
 
 </manifest>
